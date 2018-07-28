@@ -14,7 +14,7 @@ export class MyApp {
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
-      console.log("Platform is ready");
+      console.log("Platform is ready Changes by Dhiraj");
       statusBar.styleDefault();
       splashScreen.hide();
     });
