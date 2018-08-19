@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { HometabsPage } from '../hometabs/hometabs';
 
 /**
  * Generated class for the SignupPage page.
@@ -21,4 +22,8 @@ export class SignupPage {
     console.log('ionViewDidLoad SignupPage');
   }
 
+  signup() {
+    console.log('signup SignupPage');
+    this.navCtrl.push(HometabsPage);
+  }
 }
